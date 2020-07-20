@@ -4,7 +4,17 @@
 ---
 ### Alguns conteudos das aulas
 
-✅O que é uma promise;
+✅O que é o JavaScript;
+
+✅Tipos de variáveis;
+
+✅Funções;
+
+✅Arrow functions;
+
+✅High Order Function;
+
+✅Funções Assincronas;
 
 ✅As diferenças entre operações assíncronas e síncronas;
 

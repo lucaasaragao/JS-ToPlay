@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+body{
+    background-color: #EFEFEF;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header{
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #E67164;
+    background: #E67164;
+    z-index: 2;
+}
+
+.header-title h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1.2em;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+.voucher-select-title h3{
+    margin-top: 12em;
+    color:#E67164;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.voucher-select-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.btn-selected{
+    border: 0px solid #ffff;
+    border-radius:6px;
+    cursor:pointer;
+    margin: 25px;
+    padding:6px 10px;
+    text-decoration:none;
+    width: 150px;
+    height: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-selected:hover{
+    box-shadow: inset 0 0 0 2px #E67164;
+}
+
+.btn-selected p {
+    color: #E67164;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+
+.logo-background img{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 920px;
+    top: 80px;
+    z-index: -1;
+}
+
+.key-autentication{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key-autentication input{
+    width: 200px;
+    height: 25px;
+    border: 0px solid #ffff;
+    margin:  0px 15px;
+    padding: 1px 10px ;
+    border-radius:5px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-autentication{
+    color: #FFFFFF;
+    width: 80px;
+    height: 28px;
+    border-radius:5px;
+    border: 0px solid #ffff;
+    cursor: pointer;
+    background: #D1C8C7;
+    border: 1px solid #0000001C;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-autentication:hover {
+    
+    background: #E67164;
+    color: #EFEFEF;
+  }
+  

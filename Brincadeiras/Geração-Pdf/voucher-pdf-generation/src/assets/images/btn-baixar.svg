@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.595" height="98.595" viewBox="0 0 98.595 98.595">
+  <defs>
+    <filter id="Retângulo_90" x="0" y="0" width="98.595" height="98.595" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="btn-baixar" transform="translate(10.5 9.5)">
+    <g transform="matrix(1, 0, 0, 1, -10.5, -9.5)" filter="url(#Retângulo_90)">
+      <rect id="Retângulo_90-2" data-name="Retângulo 90" width="77.595" height="77.595" rx="38.797" transform="translate(10.5 9.5)" fill="#fff"/>
+    </g>
+    <g id="Grupo_119" data-name="Grupo 119" transform="translate(25.865 23.402)">
+      <path id="Subtração_1" data-name="Subtração 1" d="M26.215,31.834H0V28.088H26.215v3.744Zm-13.108-7.49h0L0,11.236H7.49V0H18.725V11.236h7.49L13.108,24.343ZM6.267,13.818l6.855,6.244,6.854-6.244H16.06V2.4H10.184V13.818Z" transform="translate(0 0)" fill="#e67164"/>
+    </g>
+  </g>
+</svg>

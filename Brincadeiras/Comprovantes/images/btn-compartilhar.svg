@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.595" height="98.595" viewBox="0 0 98.595 98.595">
+  <defs>
+    <filter id="Retângulo_91" x="0" y="0" width="98.595" height="98.595" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="btn-compartilhar" transform="translate(10.5 9.5)">
+    <g transform="matrix(1, 0, 0, 1, -10.5, -9.5)" filter="url(#Retângulo_91)">
+      <rect id="Retângulo_91-2" data-name="Retângulo 91" width="77.595" height="77.595" rx="38.797" transform="translate(10.5 9.5)" fill="#fff"/>
+    </g>
+    <path id="Caminho_253" data-name="Caminho 253" d="M30.786,7.143A4.143,4.143,0,1,1,26.643,3,4.143,4.143,0,0,1,30.786,7.143Z" transform="translate(19.936 21.633)" fill="none" stroke="#e67164" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Caminho_254" data-name="Caminho 254" d="M12.786,17.643A4.143,4.143,0,1,1,8.643,13.5,4.143,4.143,0,0,1,12.786,17.643Z" transform="translate(21.365 20.799)" fill="none" stroke="#e67164" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Caminho_255" data-name="Caminho 255" d="M30.786,28.143A4.143,4.143,0,1,1,26.643,24,4.143,4.143,0,0,1,30.786,28.143Z" transform="translate(19.936 19.966)" fill="none" stroke="#e67164" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Caminho_256" data-name="Caminho 256" d="M12.885,20.265l9.432,5.5" transform="translate(20.699 20.262)" fill="none" stroke="#e67164" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Caminho_257" data-name="Caminho 257" d="M22.3,9.765l-9.418,5.5" transform="translate(20.699 21.096)" fill="none" stroke="#e67164" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

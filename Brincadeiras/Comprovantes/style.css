@@ -105,6 +105,12 @@ header{
 /* ----------------------------------------------------------------------------------------- */
 /*  */
 
+.btn-voucher{
+    margin-top: 200px;
+    margin-left: 40%;
+}
+
+
 .logo-background img{
     position: absolute;
     width: 400px;

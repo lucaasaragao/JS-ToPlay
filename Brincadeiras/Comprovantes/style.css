@@ -96,6 +96,12 @@ header{
     font-size: 0.6em;
     margin-bottom: 10px;
 }
+
+#content-voucher-client-recipient{
+    color: #E67164;
+    margin-left: 10px;
+    font-size: 0.8em;
+}
 /* ----------------------------------------------------------------------------------------- */
 /*  */
 

@@ -17,7 +17,9 @@ body{
 }
 
 .container{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 3;
 }
 
 
@@ -47,9 +49,9 @@ header{
 /* Vouchers and cards */
 
 #container-voucher{
-    margin-left: 10%;
+    margin-left: 30%;
     background-color: #FFFFFF;
-    margin-top: 5%;
+    margin-top: 15%;
     width: 400px;
     height: 500px;
 }
@@ -106,8 +108,17 @@ header{
 /*  */
 
 .btn-voucher{
-    margin-top: 200px;
-    margin-left: 40%;
+    width: 135px;
+    height: 230px;
+    margin-top: 40%;
+    margin-left: 50%;
+    border: solid 2px red ;
+}
+
+#btn-voucher-print{
+    background: transparent;
+    border-radius: 50%;
+
 }
 
 

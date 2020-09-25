@@ -15,20 +15,42 @@
                 <h2>Gerador de comprovantes</h2>
             </div>
         </header>
-        <section>
-            <div class="voucher-select-title">
-                <h3> Selecione o tipo de <br> comprovante que você deseja gerar</h3>
-            </div>
-            <div class="voucher-select-box">
-                <button class="btn-selected"><img src="images/pagamento.svg" alt=""><p>Pagamento</p></button>
-                <button class="btn-selected"><img src="images/transferИncia.svg" alt=""><p>Transferência</p></button> 
-            </div>
+        <section class="voucher">
+            <div id="container-voucher">
+                <img id="logo-voucher" src="images/logo.svg" alt="">
+                
+                <div id="title-voucher">
+                    <h3>Comprovante <br> de pagamento</h3>
+                </div>
 
-            <div class="key-autentication">
-                <input type="text">
-                <button class="btn-autentication">Gerar</button>
-            </div>
+                <div id="separation-voucher">
+                    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                </div>
 
+                <div id="content-voucher">
+                    <h3 id="content-voucher-text"> Pagamento</h3>
+                    <h3 id="content-voucher-text"> R$ 8,00</h3>
+                    <p id="content-voucher-text-simple"> Realizado em 26 de agosto</p>
+                </div>
+
+                <div id="separation-voucher">
+                    <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
+                </div>
+
+                <div id="content-voucher-client-recipient">
+                    <h3 id="content-voucher-client-recipient">Dados do beneficiário</h3>
+                </div>
+
+                <div id="content-voucher-client-recipient-info">
+                    <h3 id="content-voucher-client-recipient-info">Beneficiário</h3>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="btn-voucher">
+            <span id="btn-voucher-print"><img src="images/btn-imprimir.svg" alt=""></span>
+            <span id="btn-voucher-download"><img src="images/btn-baixar.svg "onclick="gerarPdf()" alt=""></span>
         </section>
 
         <article>
@@ -36,9 +58,12 @@
                 <img src="images/Caminho 227.svg" alt="">
             </div>
         </article>
-
-
     </div>
+
+    <footer class="footer">
+        <h4 class="footer-title">Conpay © 2020 - Todos os direitos reservados.</h4>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>

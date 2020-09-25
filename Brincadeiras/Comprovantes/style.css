@@ -21,7 +21,6 @@ body{
     grid-column: 3;
 }
 
-
 header{
     position: absolute;
     width: auto;
@@ -219,8 +218,6 @@ header{
     }
 
 }
-
-
 
 /* ----------------------------------------------------------------------------------------- */
 /* Telas Grandes */

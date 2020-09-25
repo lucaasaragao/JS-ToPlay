@@ -13,7 +13,6 @@
 body{
     background-color: #EFEFEF;
     overflow: hidden;
-    max-width: 1700px;
 }
 
 .container{
@@ -105,20 +104,49 @@ header{
     font-size: 0.8em;
 }
 /* ----------------------------------------------------------------------------------------- */
-/*  */
+/*  Btn voucher */
 
 .btn-voucher{
-    width: 135px;
-    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 200px;
     margin-top: 40%;
-    margin-left: 50%;
-    border: solid 2px red ;
+    margin-left: 40%;
+    border:2px red solid;
 }
 
 #btn-voucher-print{
-    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    
+   
+}
+
+#btn-voucher-print:hover{
+    transform: translateX(10px);
+    transform: translateX(2px);
+}
+
+#btn-voucher-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+#btn-voucher-download:hover{
+    transform: translateX(10px);
+    transform: translateX(2px);
 }
 
 
@@ -151,6 +179,29 @@ header{
 /* Telas Pequenas */
 @media (min-width: 249px) and (max-width: 480px) 
 {
+    .container{
+        background-color: green;
+    }
+
+    #container-voucher{
+        margin: 0;
+        margin-left: 4%;
+        margin-top: 60px;
+        width: 350px;
+        height: 400px;
+        border: green solid 2px;
+    }
+
+    .logo-background img{
+        display: none;
+    }
+
+    .btn-voucher{
+        width: 200px;
+        height: 100px;
+        margin-top: 450px;
+        border:2px blue solid;
+    }
 
 }
 
@@ -159,17 +210,37 @@ header{
 @media (min-width: 400px)  and (max-width: 1024px) 
 {
 
+    #container-voucher{
+        margin: 0;
+        margin-top: 60px;
+    }
+    .logo-background img{
+        display: none;
+    }
 
-.logo-background img{
-    display: none;
 }
 
-}
+
 
 /* ----------------------------------------------------------------------------------------- */
 /* Telas Grandes */
-@media screen and (min-width: 1024px) 
+@media screen and (min-width: 1300px) 
+
 {
+
+    .logo-background img{
+        border: red solid 2px;
+        margin-left: 30%;
+        height: 1000px;
+    }
+    
+    #container-voucher{
+        margin-left: 50vh;
+        background-color: #FFFFFF;
+        margin-top: 10%;
+        width: 500px;
+        height: 800px;
+    }
 
     footer{
         height: 50px;

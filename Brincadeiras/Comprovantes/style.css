@@ -55,13 +55,11 @@ header{
     width: 40vh;
     height: 70vh;
     margin-top: 20%;
-    border: solid red 2px;
+    border: 2px red solid;
 }
 
 .voucher-pdf{
-    width: 40vh;
-    height: 70vh;
-    position: relative;
+    display: flex;
     background: #FFFFFF;
 }
 
@@ -104,7 +102,7 @@ header{
     }
 
     .voucher{
-       margin-top: 0;
+       margin-top: 10%;
     }
 
     .btn-voucher{

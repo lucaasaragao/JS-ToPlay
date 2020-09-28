@@ -55,11 +55,11 @@ header{
     width: 40vh;
     height: 70vh;
     margin-top: 20%;
-    border: 2px red solid;
 }
 
 .voucher-pdf{
     display: flex;
+    height: 100%;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
@@ -71,7 +71,6 @@ header{
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
-    border: solid 2px green;
 }
 
 .voucher-info p{
@@ -80,13 +79,8 @@ header{
 }
 
 #voucher-dados-info-data{
-    align-items: center;
-    justify-content: center;
-    border: orangered solid 2px;
+    margin-left: 70px;
 }
-
-
-
 
 .btn-voucher img{
     cursor: pointer;

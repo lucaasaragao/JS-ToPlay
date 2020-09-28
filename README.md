@@ -35,4 +35,4 @@
 
 ---
 
-Enfim tudo que eu preciso para aprender JS
+Enfim tudo que eu preciso para aprender JS 😀

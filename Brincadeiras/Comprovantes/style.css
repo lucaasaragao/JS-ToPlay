@@ -15,19 +15,14 @@ body{
     height: 100vh;
     background-color: #EFEFEF;
     overflow: hidden;
-
 }
 
 .container{
-<<<<<<< HEAD
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin: 0 auto;
-=======
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 3;
->>>>>>> db50f1f44c80eb62384b25343b4eaabf5bfc96ad
 }
 
 header{
@@ -39,7 +34,6 @@ header{
     left: 0;
     border-bottom: 1px solid #E67164;
     background: #E67164;
-    z-index: 2;
 }
 
 .header-title h2{
@@ -52,129 +46,39 @@ header{
     color: #FFFFFF;
 }
 
+
+
 /* ----------------------------------------------------------------------------------------- */
 /* Vouchers and cards */
 
-#container-voucher{
-    margin-left: 30%;
-    background-color: #FFFFFF;
-    margin-top: 15%;
-    width: 400px;
-    height: 500px;
+.voucher{
+    width: 40vh;
+    height: 70vh;
+    margin-top: 20%;
+    border: solid red 2px;
 }
 
-#logo-voucher{
-    margin-left: 35%;
-    margin-top: 2%;
-    width: 120px;
-    height: 50px;
+.voucher-pdf{
+    width: 40vh;
+    height: 70vh;
+    position: relative;
+    background: #FFFFFF;
 }
 
-#title-voucher{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    font-size: 13px;
-    width: auto;
-    height: auto;
-}
-
-#separation-voucher{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2em;
-    color: #E67164;
-}
-
-#content-voucher{
-    display: grid;
-    margin-left: 15px;
-    grid-template-columns: 2fr 1fr;
-    grid-column: 2;
-}
-
-#content-voucher-text{
-   color: #E67164;
-}
-
-#content-voucher-text-simple{
-    margin-top:5px;
-    color: black;
-    font-size: 0.6em;
-    margin-bottom: 10px;
-}
-
-#content-voucher-client-recipient{
-    color: #E67164;
-    margin-left: 10px;
-    font-size: 0.8em;
+.btn-voucher img{
+    cursor: pointer;
+    width: 80px;
+    margin-bottom: 30px;
 }
 /* ----------------------------------------------------------------------------------------- */
-/*  Btn voucher */
-
-.btn-voucher{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100px;
-    height: 200px;
-    margin-top: 40%;
-    margin-left: 40%;
-}
-
-#btn-voucher-print{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer; 
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-   
-}
-
-#btn-voucher-print:hover{
-    transform: translateX(10px);
-    transform: translateX(2px);
-}
-
-#btn-voucher-download{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-}
-
-#btn-voucher-download:hover{
-    transform: translateX(10px);
-    transform: translateX(2px);
-}
-
-
-.logo-background img{
-    position: absolute;
-    width: 400px;
-    height: 600px;
-    left: 920px;
-    top: 80px;
-    z-index: -1;
-}
-
-
+/* Footer */
   footer{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.8em;
     color:#E67164;
-    width: auto;
-    height: 70px;
+    height: 50px;
     background-color: #FFFFFF;
     position: absolute;
     bottom: 0px;
@@ -183,75 +87,17 @@ header{
 }
 
 /* ----------------------------------------------------------------------------------------- */
-/* Telas Pequenas */
-@media (min-width: 249px) and (max-width: 480px) 
-{
-    .container{
-        background-color: green;
-    }
-
-    #container-voucher{
-        margin: 0;
-        margin-left: 4%;
-        margin-top: 60px;
-        width: 350px;
-        height: 400px;
-        border: green solid 2px;
-    }
-
-    .logo-background img{
-        display: none;
-    }
-
-    .btn-voucher{
-        width: 200px;
-        height: 100px;
-        margin-top: 450px;
-        border:2px blue solid;
-    }
-
-}
-
-/* ----------------------------------------------------------------------------------------- */
-/* Telas Médias */
-@media (min-width: 400px)  and (max-width: 1024px) 
-{
-
-    #container-voucher{
-        margin: 0;
-        margin-top: 60px;
-    }
-    .logo-background img{
-        display: none;
-    }
-
-}
-
-/* ----------------------------------------------------------------------------------------- */
-/* Telas Grandes */
-@media screen and (min-width: 1300px) 
-
-{
-
-    .logo-background img{
-        border: red solid 2px;
-        margin-left: 30%;
-        height: 1000px;
-    }
-    
-    #container-voucher{
-        margin-left: 50vh;
-        background-color: #FFFFFF;
-        margin-top: 10%;
-        width: 500px;
-        height: 800px;
-    }
-
-    footer{
-        height: 50px;
-    }
-
-}
-
-/* Geral */
+/* Footer */
   
+@media (min-width: 320px) and (max-width: 800px) {
+    body {
+        background-color: aqua;
+    }
+
+   }
+
+   @media (max-width: 800px), (min-width: 1281px) {
+
+
+
+   }

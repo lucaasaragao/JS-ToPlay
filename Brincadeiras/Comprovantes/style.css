@@ -42,11 +42,9 @@ header{
     justify-content: center;
     margin: auto;
     margin-top: 1em;
-    font-size: 1em;
+    font-size: 1.5em;
     color: #FFFFFF;
 }
-
-
 
 /* ----------------------------------------------------------------------------------------- */
 /* Vouchers and cards */
@@ -55,15 +53,20 @@ header{
     width: 40vh;
     height: 75vh;
     margin-top: 20%;
+    background-image: url(images/base.svg);
+    background-repeat: no-repeat;
+    border: slateblue 2px solid;
+    background-size: auto;
 }
 
 .voucher-pdf{
     display: flex;
+    width: 100%;
     height: 100%;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    background: #FFFFFF;
+    margin-top: 30px;
 }
 
 .voucher-info{
@@ -73,13 +76,27 @@ header{
     width: 90%;
 }
 
+.voucher-title{
+    color: #E67164;
+}
+
+.voucher-separation{
+    color: #E67164;
+    font-size: 2em;
+}
+
 #info-voucher-title{
+    margin-top: 5px;
     font-size: 1em;
 }
 
 .voucher-info p{
     margin: 5px;
     font-size: 10px;
+}
+
+.voucher-dados-info p{
+    font-weight: bold;
 }
 
 #voucher-dados-info-data{
@@ -91,34 +108,87 @@ header{
     width: 70px;
     margin-bottom: 30px;
 }
+
+.voucher-footer{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-atendimento{
+    color: #E67164;
+}
+
+.info-links{
+    margin-top: 15px;
+    color: #E67164;
+}
+
+.info-links img{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#logo-footer{
+    width: 80px;
+}
+
+#icon-fone{
+    width: 12px;
+}
+
+#icon-wapp{
+    width: 12px;
+}
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
   footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.8em;
+    font-size: 1.1em;
     color:#E67164;
     height: 50px;
     background-color: #FFFFFF;
     position: absolute;
     bottom: 0px;
     width: 100%;
-
 }
 
 /* ----------------------------------------------------------------------------------------- */
 /* Footer */
 
 @media (min-width: 280px) and (max-width: 1024px){
+    body{
+        font-size: 0.6em;
+    }
     .voucher-logo img{
         display: none;
+    }
+
+    #Logo-Conpay{
+        display: none;
+    }
+
+    #voucher-dados-info{
+        font-size: 0.7em;
+    }
+
+    .voucher-value p{
+        font-size: 0.7em;
     }
 }
 
 @media screen and (min-width: 1200px) {
 
+    body{
+        font-size: 0.7em;
+    }
+
     .container{
+        width: auto;
+        height: auto;
         flex-direction: row;
         justify-content: flex-start;
         margin-left: 15%;
@@ -126,8 +196,9 @@ header{
 
     .voucher{
         width: auto;
-        height: auto;
+        height: 100%;
         margin-top: 5%;
+        background-size: 100%;
     }
 
     .btn-voucher{

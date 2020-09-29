@@ -109,6 +109,10 @@ header{
     margin-bottom: 30px;
 }
 
+.bnt-voucher-mobile{
+    margin: auto;
+}
+
 .voucher-footer{
     width: 90%;
     height: 100%;
@@ -172,11 +176,11 @@ header{
     }
 
     #voucher-dados-info{
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     .voucher-value p{
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     .btn-voucher{
@@ -192,6 +196,7 @@ header{
         border-radius: 20px;
         color: #FFFFFF;
     }
+}
 
 @media screen and (min-width: 1200px) {
 
@@ -216,8 +221,16 @@ header{
 
     .btn-voucher{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         margin-left: 5%;
+    }
+
+    .btn-voucher span p{
+        font-size: 1.5em;
+        color: #E67164;
+        margin-left: 5px;
+        margin-top: 35px;
     }
 
     .btn-voucher img{
@@ -230,4 +243,8 @@ header{
         margin-left: 50%;
     }
 
-   }
+    .bnt-voucher-mobile{
+        display: none;
+    }
+
+}

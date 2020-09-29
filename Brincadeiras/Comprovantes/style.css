@@ -178,7 +178,20 @@ header{
     .voucher-value p{
         font-size: 0.7em;
     }
-}
+
+    .btn-voucher{
+        display: none;
+    }
+
+    .bnt-voucher-mobile button{
+        margin-top: 10px;
+        background-color:#E67164;
+        width: 320px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        color: #FFFFFF;
+    }
 
 @media screen and (min-width: 1200px) {
 

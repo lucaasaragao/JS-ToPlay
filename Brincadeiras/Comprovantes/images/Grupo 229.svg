@@ -1,17 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94" height="94" viewBox="0 0 94 94">
-  <defs>
-    <filter id="Retângulo_92" x="0" y="0" width="94" height="94" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
-      <feFlood flood-opacity="0.11"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="Grupo_229" data-name="Grupo 229" transform="translate(-1493.5 -682.5)">
-    <g transform="matrix(1, 0, 0, 1, 1493.5, 682.5)" filter="url(#Retângulo_92)">
-      <rect id="Retângulo_92-2" data-name="Retângulo 92" width="73" height="73" rx="36" transform="translate(10.5 9.5)" fill="#e67164"/>
-    </g>
-    <path id="Icon_awesome-home" data-name="Icon awesome-home" d="M19.714,10.425,6.75,21.1V32.625A1.125,1.125,0,0,0,7.875,33.75l7.879-.02A1.125,1.125,0,0,0,16.874,32.6v-6.73A1.125,1.125,0,0,1,18,24.75h4.5a1.125,1.125,0,0,1,1.125,1.125V32.6a1.125,1.125,0,0,0,1.125,1.129l7.876.022a1.125,1.125,0,0,0,1.125-1.125V21.094L20.789,10.425A.857.857,0,0,0,19.714,10.425Zm20.477,7.257-5.878-4.845V3.1a.844.844,0,0,0-.844-.844H29.531a.844.844,0,0,0-.844.844V8.2l-6.3-5.179a3.375,3.375,0,0,0-4.289,0L.305,17.681A.844.844,0,0,0,.193,18.87l1.793,2.18a.844.844,0,0,0,1.189.115L19.714,7.542a.857.857,0,0,1,1.076,0l16.54,13.622a.844.844,0,0,0,1.188-.112l1.793-2.18a.844.844,0,0,0-.12-1.19Z" transform="translate(1520.001 710.746)" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="10.218" height="12.408" viewBox="0 0 10.218 12.408">
+  <g id="Grupo_229" data-name="Grupo 229" transform="translate(0)">
+    <path id="Subtração_1" data-name="Subtração 1" d="M10.218,12.408H0v-1.46H10.218v1.459ZM5.109,9.488h0L0,4.379H2.919V0H7.3V4.379h2.919L5.109,9.488Zm-2.666-4.1L5.115,7.82,7.786,5.386H6.26V.937H3.969V5.386Z" transform="translate(0 0)" fill="#fff"/>
   </g>
 </svg>

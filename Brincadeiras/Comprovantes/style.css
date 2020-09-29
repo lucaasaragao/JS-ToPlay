@@ -55,7 +55,6 @@ header{
     margin-top: 20%;
     background-image: url(images/base.svg);
     background-repeat: no-repeat;
-    border: slateblue 2px solid;
     background-size: auto;
 }
 
@@ -216,6 +215,7 @@ header{
         width: auto;
         height: 100%;
         margin-top: 5%;
+        margin-left: 200px;
         background-size: 35vh;
     }
 

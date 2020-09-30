@@ -265,16 +265,16 @@ header{
     }
 
     .voucher-title{
-        margin-top: 10px;
-        margin-bottom: 15px;
+        margin-top: 5px;
+        margin-bottom: 10px;
         font-size: 1.2em;
     }
 
     .voucher-info p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .voucher-value p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .btn-voucher{

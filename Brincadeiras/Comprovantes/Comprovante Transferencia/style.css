@@ -4,7 +4,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* ----------------------------------------------------------------------------------------- */
@@ -23,6 +24,7 @@ body{
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
+
 }
 
 header{
@@ -66,7 +68,7 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .voucher-info{
@@ -87,6 +89,7 @@ header{
 
 #info-voucher-title{
     margin-top: 5px;
+    margin-bottom: 10px;
     font-size: 1em;
 }
 
@@ -117,8 +120,13 @@ header{
 
 #voucher-value-total{
     font-size: 2em;
-    color:#E67164 ;
+    color:#E67164;
+    font-weight: 600;
 
+}
+
+#Logo-Conpay{
+    margin-bottom: 15px;
 }
 
 .btn-voucher img{
@@ -230,7 +238,7 @@ header{
 @media screen and (min-width: 1200px) {
 
     body{
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 
     .container{
@@ -265,9 +273,14 @@ header{
     }
 
     .voucher-title{
+        font-weight: 700;
         margin-top: 10px;
-        margin-bottom: 15px;
         font-size: 1.2em;
+    }
+
+    #voucher-dados-info-value{
+        font-size: 2em;
+        font-weight: 600;
     }
 
     .voucher-info p{

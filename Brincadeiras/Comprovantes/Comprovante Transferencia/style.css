@@ -94,6 +94,10 @@ header{
     font-size: 10px;
 }
 
+.voucher-dados p{
+    font-size: 0.7em;
+}
+
 .voucher-dados-info p{
     font-weight: bold;
 }
@@ -180,6 +184,13 @@ header{
     body{
         font-size: 0.7em;
     }
+
+    .voucher{
+        margin-top: 80px;
+        border: solid 2px green;
+        background-size: 100%;
+    }
+
     .voucher-logo img{
         display: none;
     }
@@ -226,15 +237,26 @@ header{
     }
 
     .voucher{
-        width: auto;
-        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
         margin-top: 5%;
         margin-left: 200px;
-        background-size: 35vh;
+        background-size: 100% 100%;
     }
 
+    .voucher-pdf{
+        width: 80%;
+        height: 90%;
+        font-size: 1em;
+    }
+
+    .voucher-info p{
+        font-size: 1.2em;
+    }
     .voucher-value p{
-        font-size: 0.7em;
+        font-size: 1.2em;
     }
 
     .btn-voucher{
@@ -256,6 +278,10 @@ header{
         width: 90px;
     }
 
+    #Logo-Conpay{
+        width: 130px;
+    }
+
     .voucher-logo img{
         display: none;
         margin-top: 20%;
@@ -265,5 +291,4 @@ header{
     .bnt-voucher-mobile{
         display: none;
     }
-
 }

@@ -15,7 +15,6 @@
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    
 }
 
 /* ----------------------------------------------------------------------------------------- */
@@ -216,7 +215,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1981px) {
 
     .container{
         flex-direction: row;
@@ -237,7 +236,6 @@
         font-size: 1.4em;
         width: auto;
         height: auto;
-       
     }
 
     .logo-fundo{
@@ -254,13 +252,13 @@
     }
 
     #voucher-dados-info-value{
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight: 600;
     }
 
     #voucher-value-total{
         text-align: end;
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     .voucher-info p{

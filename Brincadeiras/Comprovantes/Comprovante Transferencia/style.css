@@ -126,6 +126,7 @@ header{
 }
 
 #Logo-Conpay{
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -201,10 +202,13 @@ header{
 
     .logo-fundo{
         position: absolute;
-        width: 500px;
         left: 0px;
         top: 0px;
         z-index: -1;
+    }
+
+    #fundo img{
+        width: 350px;
     }
 
     #Logo-Conpay{

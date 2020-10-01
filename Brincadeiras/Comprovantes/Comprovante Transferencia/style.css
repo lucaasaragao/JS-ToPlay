@@ -71,6 +71,11 @@ header{
     margin-top: 10px;
 }
 
+.voucher-pdf{
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
 .voucher-info{
     display: flex;
     flex-direction: row;
@@ -79,6 +84,7 @@ header{
 }
 
 .voucher-title{
+    margin-left: 2px;
     color: #E67164;
 }
 

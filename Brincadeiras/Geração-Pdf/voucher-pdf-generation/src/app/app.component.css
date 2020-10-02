@@ -130,6 +130,7 @@
 
 .bnt-voucher-mobile{
     margin: auto;
+    cursor: pointer;
 }
 
 /* Classes, Ids textos */
@@ -166,7 +167,57 @@
 /* ----------------------------------------------------------------------------------------- */
 /* Visualizações dispositivos */
 
-@media (min-width: 280px) and (max-width: 500px){
+@media (min-width: 260px) and (max-width: 359px){
+
+    .container{
+        font-size: 10px
+    }
+
+    .voucher{
+        margin-top: 5px;
+    }
+
+    .logo-fundo{
+        position: absolute;
+        left: 5em;
+        top: 5em;
+        z-index: -1;
+    }
+
+    #fundo img{
+        width: 250px;
+    }
+
+    #Logo-Conpay{
+        width: 100px;
+    }
+
+    #voucher-dados-info{
+        font-size: 0.8em;
+    }
+
+    .voucher-value p{
+        text-align: end;
+        font-size: 0.8em;
+    }
+
+    .btn-voucher{
+        display: none;
+    }
+
+    .bnt-voucher-mobile button{
+        margin-top: 20px;
+        background-color:#E67164;
+        width: 250px;
+        height: 40px;
+        margin-bottom: 5px;
+        border: none;
+        border-radius: 20px;
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 400px){
     .container{
         font-size: 13px
     }
@@ -177,8 +228,109 @@
 
     .logo-fundo{
         position: absolute;
-        left: 0px;
-        top: 0px;
+        left: 50px;
+        top: 50px;
+        z-index: -1;
+    }
+
+    #fundo img{
+        width: 250px;
+    }
+
+    #Logo-Conpay{
+        width: 100px;
+    }
+
+    #voucher-dados-info{
+        font-size: 0.8em;
+    }
+
+    .voucher-value p{
+        text-align: end;
+        font-size: 0.8em;
+    }
+
+    .btn-voucher{
+        display: none;
+    }
+
+    .bnt-voucher-mobile button{
+        margin-top: 2em;
+        background-color:#E67164;
+        width: 250px;
+        height: 40px;
+        margin-bottom: 50px;
+        border: none;
+        border-radius: 20px;
+        color: #FFFFFF;
+    }
+}
+
+@media(min-width: 401px) and (max-width: 750px){
+
+    .container{
+        font-size: 13px
+    }
+
+    .voucher{
+        margin-top: 10px;
+    }
+
+    .logo-fundo{
+        position: absolute;
+        left: 60px;
+        top: 50px;
+        z-index: -1;
+    }
+
+    #fundo img{
+        width: 290px;
+    }
+
+    #Logo-Conpay{
+        width: 100px;
+    }
+
+    #voucher-dados-info{
+        font-size: 0.8em;
+    }
+
+    .voucher-value p{
+        text-align: end;
+        font-size: 0.8em;
+    }
+
+    .btn-voucher{
+        display: none;
+    }
+
+    .bnt-voucher-mobile button{
+        margin-top: 2em;
+        background-color:#E67164;
+        width: 250px;
+        height: 40px;
+        margin-bottom: 80px;
+        border: none;
+        border-radius: 20px;
+        color: #FFFFFF;
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 1020px){
+    
+    .container{
+        font-size: 15px
+    }
+
+    .voucher{
+        margin-top: 150px;
+    }
+
+    .logo-fundo{
+        position: absolute;
+        left: 200px;
+        top: 150px;
         z-index: -1;
     }
 
@@ -204,18 +356,102 @@
     }
 
     .bnt-voucher-mobile button{
-        margin-top: 10px;
         background-color:#E67164;
         width: 250px;
         height: 40px;
-        margin-bottom: 5px;
+        margin-bottom: 150px;
         border: none;
         border-radius: 20px;
         color: #FFFFFF;
     }
 }
 
-@media (min-width: 800px) and (max-width: 1981px) {
+@media (min-width: 1021px) and (max-width: 1024px){
+
+    .container{
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 1em;
+    }
+
+    .voucher{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        margin-left: 180px;
+        background-size: 100% 100%;
+       
+    }
+    .voucher-pdf{
+        font-size: 1.6em;
+        width: auto;
+        height: auto;
+    }
+
+    .logo-fundo{
+        position: absolute;
+        left: 15%;
+        top: 10%;
+        z-index: -1;
+    }
+
+    #fundo img{
+        width: 600px;
+    }
+
+    .voucher-title{
+        font-weight: 700;
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    #voucher-dados-info-value{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    #voucher-value-total{
+        text-align: end;
+        font-size: 1.2em;
+    }
+
+    .voucher-info p{
+        font-size: 1em;
+    }
+    .voucher-value p{
+        text-align: end;
+        font-size: 1em;
+    }
+
+    .btn-voucher{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-voucher a{
+        font-size: 1.8em;
+        text-decoration: none;
+        color: #E67164;
+    }
+
+    .btn-voucher img{
+        width: 130px;
+    }
+
+    #Logo-Conpay{
+        width: 130px;
+    }
+
+    .bnt-voucher-mobile{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 1025px) {
 
     .container{
         flex-direction: row;

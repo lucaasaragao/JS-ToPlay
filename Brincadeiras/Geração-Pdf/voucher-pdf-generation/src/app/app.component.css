@@ -167,7 +167,7 @@
 /* ----------------------------------------------------------------------------------------- */
 /* Visualizações dispositivos */
 
-@media (min-width: 260px) and (max-width: 359px){
+@media (min-width: 260px) and (max-width: 359px){ /*Iphone 5, SE*/
 
     .container{
         font-size: 10px
@@ -215,10 +215,15 @@
         border-radius: 20px;
         color: #FFFFFF;
     }
+
+    .info-links img{
+        width: 15px;
+        margin-bottom: 15px;
+    }
 }
 
-@media (min-width: 360px) and (max-width: 400px){
-    .container{
+@media (min-width: 360px) and (max-width: 400px){  /*Iphone X, motog4, Galaxy S5 */
+    .container{ 
         font-size: 13px
     }
 
@@ -264,9 +269,14 @@
         border-radius: 20px;
         color: #FFFFFF;
     }
+
+    .info-links img{
+        width: 15px;
+        margin-bottom: 15px;
+    }
 }
 
-@media(min-width: 401px) and (max-width: 750px){
+@media(min-width: 401px) and (max-width: 750px){  /*Iphone 7,8 plus, pixel 2*/
 
     .container{
         font-size: 13px
@@ -314,10 +324,15 @@
         border-radius: 20px;
         color: #FFFFFF;
     }
+
+    .info-links img{
+        width: 15px;
+        margin-bottom: 15px;
+    }
 }
 
 
-@media (min-width: 700px) and (max-width: 1020px){
+@media (min-width: 700px) and (max-width: 1020px){ /*Ipad and samsung tab*/
     
     .container{
         font-size: 15px
@@ -366,7 +381,7 @@
     }
 }
 
-@media (min-width: 1021px) and (max-width: 1024px){
+@media (min-width: 1021px) and (max-width: 1024px){ /*Ipad pro*/
 
     .container{
         flex-direction: row;

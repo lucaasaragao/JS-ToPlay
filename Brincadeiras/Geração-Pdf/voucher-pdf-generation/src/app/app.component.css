@@ -481,7 +481,7 @@
 
     .logo-fundo{
         position: absolute;
-        left: 20%;
+        left: 45%;
         top: 10vh;
         z-index: -1;
     }
@@ -552,7 +552,6 @@
         flex-direction: row;
         justify-content: flex-start;
         font-size: 0.6em;
-        background-color: blue;
     }
 
     .voucher{

@@ -19,12 +19,26 @@
                     <p id="voucher-dados-info">Juros/Mora(+):</p>
                     <p id="voucher-dados-info">Multa(+):</p>
                     <p id="voucher-dados-info">Total de encargos(=):</p>  -->
-                    <p id="voucher-dados-info-data">Relizada em: 00 de Set às 00:00</p>
-                    <p id="voucher-dados-info-data">Situação: <strong>Transfêrencia aprovada</strong></p>
+                    <p id="voucher-dados-info-data">Relizada em: {{transfer.dataRegistro | date: 'dd/MM/yyyy HH:mm:ss' | NullValue}} às 00:00</p>
+                   
+                    <p id="voucher-dados-info-data">Situação: 
+                        <span *ngIf="transfer.situacao=='Aguardando Envio'"
+                            class="label label-info">{{transfer.situacao}}</span>
+                        <span *ngIf="transfer.situacao=='Em análise bancária'"
+                            class="label label-info">{{transfer.situacao}}</span>
+                        <span *ngIf="transfer.situacao=='Transferência aprovada'"
+                            class="label label-success">{{transfer.situacao}}</span>
+                        <span *ngIf="transfer.situacao=='Transferência negada'"
+                            class="label label-danger">{{transfer.situacao}}</span>
+                        <span *ngIf="transfer.situacao=='Transferência retornada'"
+                            class="label label-warning">{{transfer.situacao}}</span>
+                        <span *ngIf="transfer.situacao=='Transferência cancelada'"
+                            class="label label-warning">{{transfer.situacao}}</span>
+                    </p>
                 </div>
 
                 <div class="voucher-value">
-                    <p id="voucher-value-total">R$ 2.657,58</p>
+                    <p id="voucher-value-total">{{transfer.valor | BRLValue}}</p>
                    <!-- <p>R$ 00,00</p>
                     <p>R$ 00,00</p>
                     <p>R$ 00,00</p>
@@ -61,11 +75,11 @@
                 </div>
 
                 <div class="voucher-value">
-                    <p>Banco Bradesco</p>
-                    <p>3392</p>
-                    <p>1287-4</p>
-                    <p>Is2b</p>
-                    <p>00.000.000/000.00</p>
+                    <p>{{bank.name}}</p>
+                    <p>{{transfer.codAgencia}}</p>
+                    <p>{{transfer.numConta}}-{{transfer.digitoConta}}</p>
+                    <p>{{transfer.razaoSocial}}</p>
+                    <p>{{transfer.numeroDocumento | BillCpfCnpj}}</p>
                  <!--   <p>Conta de água</p> -->
 
                 </div>

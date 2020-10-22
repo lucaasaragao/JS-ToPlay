@@ -1,6 +1,6 @@
 # JS-ToPlay
 
-### Repositorio criando para melhor aprender a linguagem que está dominando o mercado, JavaScript.
+### Repositorio criando para melhor aprender a linguagem JavaScript.
 
 ---
 ### Alguns conteudos das aulas

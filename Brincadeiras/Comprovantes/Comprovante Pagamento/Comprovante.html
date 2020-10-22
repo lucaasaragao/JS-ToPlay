@@ -25,25 +25,18 @@
         <section class="voucher">
             <div class="voucher-pdf">
                 <img id="Logo-Conpay" src="images/logo.svg" alt="Logo Conpay">
-                <h3 id="info-voucher-title">Comprovante <br> de pagamento</h3>
+                <h3 id="info-voucher-title">Comprovante de pagamento</h3>
                <div class="voucher-separation"><img src="images/line.svg" alt=""></div>
                <!--Inicio-->
                 <div class="voucher-info">
                     <div class="voucher-dados">
                         <p id="voucher-dados-info-value">Valor do documento:</p>
-                        <!--<p id="voucher-dados-info">Desconto(-):</p>
-                        <p id="voucher-dados-info">Juros/Mora(+):</p>
-                        <p id="voucher-dados-info">Multa(+):</p>
-                        <p id="voucher-dados-info">Total de encargos(=):</p>  -->
-                        <p id="voucher-dados-info-data">Pagamento efetuado em: 00 de Set</p>
+                        <p id="voucher-dados-info-data">Pagamento efetuado em: {{payment?.createDate | date:'dd/MM/yyyy HH:mm' }} </p>
+                        <p id="voucher-dados-info-situation">{{ PaymentStatusList.get(payment?.status) }}</p>
                     </div>
 
                     <div class="voucher-value">
                         <p id="voucher-value-total">R$ 00,00</p>
-                       <!-- <p>R$ 00,00</p>
-                        <p>R$ 00,00</p>
-                        <p>R$ 00,00</p>
-                        <p>R$ 00,00</p> -->
                     </div>
                 </div>
                 <div class="voucher-separation"><img src="images/line.svg" alt=""></div>
@@ -71,13 +64,11 @@
                     <div class="voucher-dados">
                         <p id="voucher-dados-info">Nome:</p>
                         <p id="voucher-dados-info">CPF/CNPJ:</p>
-                      <!--  <p id="voucher-dados-info">Descrição:</p> -->
                     </div>
 
                     <div class="voucher-value">
                         <p>Lucas Aragão</p>
                         <p>00.000.000/000</p>
-                     <!--   <p>Conta de água</p> -->
 
                     </div>
                 </div>
@@ -88,27 +79,14 @@
                     <div class="voucher-dados">
                         <p id="voucher-dados-info">Nome:</p>
                         <p id="voucher-dados-info">CPF/CNPJ:</p>
-                      <!--  <p id="voucher-dados-info">Descrição:</p> -->
                     </div>
 
                     <div class="voucher-value">
                         <p>Lucas Aragão</p>
                         <p>00.000.000/000</p>
-                     <!--   <p>Conta de água</p> -->
 
                     </div>
                 </div>
-               
-               <!-- <div class="voucher-info">
-                    <div class="voucher-dados">
-                        <p id="voucher-dados-info">Linha digitável:</p>
-                    </div>
-
-                    <div class="voucher-value">
-                        <p>46456.51464.6546546.54654846.00004.9
-                            545454546565558</p>
-                    </div>
-                </div> -->
 
                <div class="voucher-separation"><img src="images/line.svg" alt=""></div>
                 
@@ -158,9 +136,6 @@
 
     </div>
 
-    <footer class="footer">
-        <h4 class="footer-title">Conpay © 2020 - Todos os direitos reservados.</h4>
-    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>

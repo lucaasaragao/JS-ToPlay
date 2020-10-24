@@ -34,5 +34,3 @@
 ✅Como refatorar o código de uma promise para que ele fique mais legível e componível.
 
 ---
-
-Enfim tudo que eu preciso para aprender JS 😀

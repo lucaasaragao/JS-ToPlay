@@ -4,5 +4,3 @@ function calculateImc(){
     let imc = peso / altura * altura;
     return imc;
 }
-
-calculateImc()
